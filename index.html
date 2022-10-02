@@ -7,27 +7,275 @@
     <link rel="shortcut icon" href="http://ascca.gov.az/favicon.ico"/> 
     <link rel="stylesheet" href="/style.css">
     <!-- Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- End of Boostrap -->
+    <!-- Font Awasome -->
+    <script src="https://kit.fontawesome.com/18fe446eba.js" crossorigin="anonymous"></script>
+    <!-- End of Font Awasome -->
+    <!-- Flex Slider -->
+    <link rel="stylesheet" href="/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+        });
+    </script>
+    <!-- End of Flex Slider -->
     <title>DGKA</title>
 </head>
 <body>
     <div class="top"></div>
+    <div class="responsive-nav">
+        <div onclick="myFunction()" class="nav-hamburger">
+            <i class="fa fa-bars d-flex justify-content-center p-3"></i>
+        </div>
+        <div id="responsiveList" class="responsive-list">
+            <ul>
+                <li>AKADEMIYA
+                    <ul>
+                        <li>Haqqımızda
+                            <ul>
+                                <li>Dövlət Gömrük Komitəsinin Akademiyasının təsis edilməsi haqqında</li>
+                                <li> Nizamnamə</li>
+                                <li>Akademiyanın yaranması, tarixi və fəaliyyəti</li>
+                            </ul>
+                        </li>
+                        <li>Rəhbərlik
+                            <ul>
+                                <li>Akademiyanın rəisi</li>
+                                <li>Tədris və innovasiyalar üzrə rəis müavini</li>
+                                <li>Elmi işlər üzrə rəis müavini</li>
+                            </ul>
+                        </li>
+                        <li>Struktur
+                            <ul>
+                                <li>Kafedralar
+                                    <ul>
+                                        <li>Gömrük işi və idarəetmə kafedrası</li>
+                                        <li>İnformasiya texnologiyaları və texniki elmlər kafedrası</li>
+                                        <li>Hüquq və humanitar elmlər kafedrası</li>
+                                    </ul>
+                                </li>
+                                <li>Ümumi idarəetmə bölmələri
+                                    <ul>
+                                        <li>Katiblik</li>
+                                        <li>Mühasibat uçotu və əməyin təşkili şöbəsi</li>
+                                        <li>Təsərrüfat və texniki xidmət şöbəsi</li>
+                                    </ul>
+                                </li>
+                                <li>Tədrisə xidmət və idarəetmə bölmələri
+                                    <ul>
+                                        <li>Tədris-metodiki işin təşkili şöbəsi</li>
+                                        <li>Monitorinq və qiymətləndirmə şöbəsi</li>
+                                        <li>İKT-nin tətbiqi şöbəsi</li>
+                                        <li>Ömürboyu təhsil şöbəsi</li>
+                                        <li>Kitabxana</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>İnfrastruktur
+                            <ul>
+                                <li>Ümumi məlumat</li>
+                                <li>Panoramlı fotolar</li>
+                            </ul>
+                        </li>
+                        <li>Elmi Şura</li>
+                        <li>Hüquqi sənədlər
+                            <ul>
+                                <li>"Təhsil haqqında" Qanun</li>
+                                <li>Digər hüquqi-normativ sənədlər</li>
+                            </ul>
+                        </li>
+                        <li>Statistika</li>
+                    </ul>
+                </li>
+                <li>TƏDRİS
+                    <ul>
+                        <li> Akademik təqvim</li>
+                        <li>İxtisaslar
+                            <ul>
+                                <li>Hüquqşünaslıq
+                                    <ul>
+                                        <li>İxtisas üzrə Təhsil proqramı</li>
+                                        <li>Peşə kompetensiyaları</li>
+                                        <li>Fənlər</li>
+                                    </ul>
+                                </li>
+                                <li>İqtisadiyyat
+                                    <ul>
+                                        <li> İxtisas üzrə Təhsil proqramı</li>
+                                        <li>Peşə kompetensiyaları</li>
+                                        <li>Fənlər</li>
+                                    </ul>
+                                </li>
+                                <li>İnformasiya texnologiyaları
+                                    <ul>
+                                        <li> İxtisas üzrə Təhsil proqramı</li>
+                                        <li>Peşə kompetensiyaları</li>
+                                        <li>Fənlər</li>
+                                    </ul>
+                                </li>
+                                <li>İnformasiya təhlükəsizliyi
+                                    <ul>
+                                        <li> İxtisas üzrə Təhsil proqramı</li>
+                                        <li>Peşə kompetensiyaları</li>
+                                        <li>Fənlər</li>
+                                    </ul>
+                                </li>
+                                <li>Beynəlxalq ticarət və logistika
+                                    <ul>
+                                        <li> İxtisas üzrə Təhsil proqramı</li>
+                                        <li>Peşə kompetensiyaları</li>
+                                        <li>Fənlər</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Onlayn təhsil</li>
+                    </ul>
+                </li>
+                <li>ELM
+                    <ul>
+                        <li>Ümumi məlumat</li>
+                        <li>Elmi tədbirlər</li>
+                        <li>Elmi işlər
+                            <ul>
+                                <li>Bakalavriat səviyyəsi üzrə
+                                    <ul>
+                                        <li>2019</li>
+                                        <li>2020</li>
+                                        <li>2021</li>
+                                    </ul>
+                                </li>
+                                <li>Magistratura səviyyəsi üzrə
+                                    <ul>
+                                        <li>2020</li>
+                                        <li>2021</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>TEC fəaliyyəti</li>
+                        <li>Elmi jurnal və nəşrlər</li>
+                    </ul>
+                </li>
+                <li>TƏLƏBƏ
+                    <ul>
+                        <li>Tələbə həyatı</li>
+                        <li>Tələbə Gənclər Təşkilatı (TGT)</li>
+                        <li>Tələbələrin uğurları</li>
+                        <li>İstehsalat təcrübəsi</li>
+                        <li>Məzunlar
+                            <ul>
+                                <li>Məzun bazası</li>
+                                <li>Uğurlu karyera</li>
+                                <li>Diplomların həqiqiliyinin yoxlanması</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>ABİTURİYENT
+                    <ul>
+                        <li>Nə üçün DGKA?</li>
+                        <li>İxtisaslarımız
+                            <ul>
+                                <li>Bakalavriat</li>
+                                <li>Magistratura</li>
+                                <li>Təkrar ali təhsil</li>
+                            </ul>
+                        </li>
+                        <li>Təhsil haqqı</li>
+                        <li>Tez-tez verilən suallar</li>
+                    </ul>
+                </li>
+                <li>BEYNƏLXALQ ƏMƏKDAŞLIQ
+                    <ul>
+                        <li>Akademik əməkdaşlıq
+                            <ul>
+                                <li>İkitərəfli akademik əməkdaşlıq və sazişlər</li>
+                                <li>Erasmus+</li>
+                                <li>Akademik mobillik</li>
+                            </ul>
+                        </li>
+                        <li>Gömrük təlimi əməkdaşlığı
+                            <ul>
+                                <li>Beynəlxalq təşkilatlarla təlim-tədris əməkdaşlığı</li>
+                                <li>Digər ölkələrlə ikitərəfli təlim-tədris əməkdaşlığı</li>
+                                <li>Gömrük üzrə E-learning</li>
+                            </ul>
+                        </li>
+                        <li>Tərəfdaşlıqlar
+                            <ul>
+                                <li>e-Learning tərəfdaşlıqları</li>
+                                <li> Yerli və xarici özəl sektor qurumlarıyla tərəfdaşlıqlar</li>
+                                <li>Səfirliklərlə və nümayəndəliklərlə iş</li>
+                            </ul>
+                        </li>
+                        <li>Akademiyadakı beynəlxalq strukturlar
+                            <ul>
+                                <li> ÜGT Regional Təlim Mərkəzi</li>
+                                <li>Beynəlxalq Gömrük Universitetləri Şəbəkəsinin Regional Ofisi</li>
+                            </ul>
+                        </li>
+                        <li>Beynəlxalq üzvlüklər
+                            <ul>
+                                <li>İNCU</li>
+                                <li>UNGC</li>
+                                <li>PRME</li>
+                                <li>UNAİ</li>
+                                <li>BSUN</li>
+                            </ul>
+                        </li>
+                        <li>Beynəlxalq layihələr
+                            <ul>
+                                <li>Work4CE</li>
+                                <li>ECAR</li>
+                            </ul>
+                        </li>
+                        <li>Əlaqə vasitələri</li>
+                    </ul>
+                </li>
+                <li>KS
+                    <ul>
+                        <li>Ümumi məlumat</li>
+                        <li>Keyfiyyət siyasətimiz</li>
+                        <li>Missiya, hədəflər və dəyərlər</li>
+                    </ul>
+                </li>
+                <li>MEDİA
+                    <ul>
+                        <li>DGKA KİV-də</li>
+                        <li>Foto-qalereya</li>
+                        <li>Video-qalereya</li>
+                        <li>Kataloq</li>
+                    </ul>
+                </li>
+                <li>ƏLAQƏ
+                    <ul>
+                        <li>Müraciət</li>
+                        <li>Onlayn qəbula yazılmaq</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="nav pt-3">
         <div class="container">
             <div class="nav-wrapper d-flex col-12">
-                <a href="/index.html" class="nav-logo d-flex col-md-4 col-12">
+                <a href="/index.html" class="nav-logo d-flex col-lg-4 col-12">
                     <img title="DGKA" src="/images/logo.png" alt="">
                     <p>Dövlət Gömrük Komitəsinin Akademiyası</p>
                 </a>
-                <div class="nav-social col-md-4 col-12">
+                <div class="nav-social col-lg-4 col-12">
                     <a title="Facebook" href="https://www.facebook.com/gomrukakademiyasi"><img src="/images/facebook.svg" alt=""></a>
                     <a title="Youtube" href="https://www.youtube.com/channel/UCOGsNKJKLbBI3uHRpx9KUZQ"><img src="/images/youtube.svg" alt=""></a>
                     <a title="Twitter" href="https://twitter.com/GomrukAkademiya"><img src="/images/twitter.svg" alt=""></a>
                     <a title="Teleqram" href="https://t.me/GomrukAkademiyasi"><img src="/images/telegram.svg" alt=""></a>
                     <a title="Instagram" href="https://www.instagram.com/gomrukakademiyasi/"><img src="/images/instagram.svg" alt=""></a>
                 </div>
-                <div class="nav-right col-md-4 col-12">
+                <div class="nav-right col-lg-4 col-12">
                     <div class="nav-sign">
                         <a href="#">Giriş</a>
                         <a href="#">Qeydiyyat</a>
@@ -41,7 +289,249 @@
                     </div>
                 </div>
             </div>
+            <div class="nav-list-wrapper pt-3 md-hidden col-12">
+                <ul class="nav-list-wrapper-ul">
+                    <li>AKADEMIYA<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Haqqımızda <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Rəhbərlik <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Struktur <i class="fa-solid fa-angle-down"></i></li>
+                            <li>İnfrastruktur <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Elmi Şura </li>
+                            <li>Hüquqi sənədlər <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Statistika</li>
+                        </ul>
+                    </li>
+                    <li>TƏDRİS<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Akademik təqvim</li>
+                            <li>İxtisaslar <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Onlayn təhsil</li>
+                        </ul>
+                    </li>
+                    <li>ELM<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Ümumi məlumat</li>
+                            <li>Elmi tədbirlər</li>
+                            <li>Elmi işlər <i class="fa-solid fa-angle-down"></i></li>
+                            <li>TEC fəaliyyəti</li>
+                            <li>Elmi jurnal və nəşrlər</li>
+                        </ul>
+                    </li>
+                    <li>TƏLƏBƏ<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Tələbə həyatı</li>
+                            <li>Tələbə Gənclər Təşkilatı (TGT)</li>
+                            <li>Tələbələrin uğurları</li>
+                            <li>İstehsalat təcrübələri </li>
+                            <li>Məzunlar <i class="fa-solid fa-angle-down"></i></li>
+                        </ul>
+                    </li>
+                    <li>ABİTURİYENT<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Nə üçün DGKA?</li>
+                            <li>İxtisaslarımız <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Təhsil haqqı</li>
+                            <li>Tez-tez verilən suallar</li>
+                        </ul>
+                    </li>
+                    <li>BEYNƏLXALQ ƏMƏKDAŞLIQ<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Akademik əməkdaşlıq<i class="fa-solid fa-angle-down"></i></li>
+                            <li>Gömrük təlimi əməkdaşlığı <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Tərəfdaşlıqlar<i class="fa-solid fa-angle-down"></i></li>
+                            <li>Akademiyadakı beynəlxalq strukturlar<i class="fa-solid fa-angle-down"></i></li>
+                            <li>Beynəlxalq üzvlüklər <i class="fa-solid fa-angle-down"></i></li>
+                            <li>Beynəlxalq layihələr<i class="fa-solid fa-angle-down"></i></li>
+                            <li>Əlaqə vasitələri</li>
+                        </ul>
+                    </li>
+                    <li>KS<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Ümumi məlumat</li>
+                            <li>Gömrük təlimi əməkdaşlığı</li>
+                            <li>Keyfiyyət siyasətimiz</li>
+                            <li>Missiya,hədəflər və dəyərler</li>
+                        </ul>
+                    </li>
+                    <li>MEDİA<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>DGKA KİV-də</li>
+                            <li>Foto-qalereya</li>
+                            <li>Video-qalereya</li>
+                            <li>Kataloq</li>
+                        </ul>
+                    </li>
+                    <li>ƏLAQƏ<i class="fa-solid fa-angle-down"></i>
+                        <ul class="nav-list-2">
+                            <li>Müraciət</li>
+                            <li>Onlayn qəbula yazılmaq</li>
+                        </ul>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page pt-4">
+        <div class="container">
+            <div class="page-wrapper row">
+                <div class="page-left col-lg-8 col-12">      
+                    <div class="flexslider">
+                        <ul class="slides">
+                        <li>
+                            <img src="/images/slider-1.jpg" alt="">
+                            <p>Gömrük Akademiyasının tələbələrinin məqalələri beynəlxalq elmi jurnalda dərc olunub</p>
+                            </li>
+                        <li>
+                            <img src="/images/slider-2.png" alt="">
+                            <p>Gömrük Akademiyasının əməkdaşı əqli mülkiyyət hüquqlarının qorunmasına həsr olunmuş beynəlxalq tədbirdə iştirak edib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-3.jpg" alt="">
+                            <p>Gömrük Akademiyasında Vətən müharibəsi şəhidlərinin xatirəsi yad edilib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-4.jpg" alt="">
+                            <p>“Beynəlxalq Kibertəhlükəsizlik Günü”nə həsr olunan konfrans keçirilib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-5.jpg" alt="">
+                            <p>Gömrük Akademiyasının tələbələri II Fəxri xiyabana yürüş təşkil ediblər</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-6.jpg" alt="">
+                            <p>Dövlət Gömrük Komitəsinin Akademiyasının II kurs tələbəsi Elvin Əzizli Sabunçu rayonunda baş vermiş yol nəqliyyat hadisəsi nəticəsində vəfat etmişdir</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-7.jpeg" alt="">
+                            <p>DGKA-nın Tələbə Gənclər Təşkilatı tələbələr ilə görüş keçirib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-8.jpg" alt="">
+                            <p>Gömrük Akademiyası ilə “Karmasis Azərbaycan” şirkəti arasında görüş keçirilib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-9.jpg" alt="">
+                            <p>Gömrük Akademiyasında Elmi Şuranın növbəti iclası keçirilib</p>
+                        </li>
+                        <li>
+                            <img src="/images/slider-10.jpeg" alt="">
+                            <p>Gömrük Akademiyasında tələbələrin növbəti tədbiri keçirilib</p>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="news">
+                        <div class="news-header">
+                            <span>Xəbərlər</span>
+                            <a href="">Bütün xəbərlər</a>
+                        </div>   
+                        <div class="news-section">
+                            <div class="news-img"><img src="/images/news-1.jpg" alt=""></div>
+                            <div class="news-info">
+                                <div class="news-title">Gömrük Akademiyası ilə “Karmasis Azərbaycan” şirkəti arasında görüş keçirilib</div>
+                                <div class="news-text">
+                                    Dövlət Gömrük Komitəsinin Akademiyasında “Karmasis Azərbaycan” şirkəti ilə görüş keçirilib. Görüşdə Dövlət
+                                </div>
+                                <div class="news-date">01.10.2022</div>
+                            </div>
+                        </div>
+                        <div class="news-section">
+                            <div class="news-img"><img src="/images/news-2.jpg" alt=""></div>
+                            <div class="news-info">
+                                <div class="news-title">Gömrük Akademiyasında TGT-nin İdarə heyəti ilə görüş keçirilib</div>
+                                <div class="news-text">
+                                    TGT-nin illik fəaliyyətinin nəzərdən keçirilməsi, yeni tədris ilində İdarə heyətinin qarşısında duran məsələlə
+                                </div>
+                                <div class="news-date">30.09.2022</div>
+                            </div>
+                        </div>
+                        <div class="news-section">
+                            <div class="news-img"><img src="/images/news-3.jpg" alt=""></div>
+                            <div class="news-info">
+                                <div class="news-title">Gömrük Akademiyasının tələbələrinin məqalələri beynəlxalq elmi jurnalda dərc olunub</div>
+                                <div class="news-text">
+                                    Dövlət Gömrük Komitəsinin Akademiyasının “İqtisadiyyat” ixtisası üzrə 3-cü kurs tələbəsi Mənsurə Abdulla
+                                </div>
+                                <div class="news-date">30.09.2022</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elan mt-4">
+                        <div class="news-header">
+                            <span>Elanlar</span>
+                            <a href="">Bütün elanlar</a>
+                        </div>   
+                        <div class="news-section">
+                            <div class="news-img">
+                                <div class="elan-date">
+                                    <b>İyul</b>
+                                    <p>07</p>
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                <div class="news-title">Dövlət Gömrük Komitəsinin Akademiyası 2022/2023-cü tədris ili üzrə akademik əməkdaşlığa dəvət edir</div>
+                                </div>
+                        </div>
+                        <div class="news-section">
+                            <div class="news-img">
+                                <div class="elan-date">
+                                    <b>İyun</b>
+                                    <p>30</p>
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                <div class="news-title">DGKA-nın tələbələri üçün Şanxay Gömrük Kollecinin beynəlxalq proqramında iştirak imkanı
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="news-section">
+                            <div class="news-img">
+                                <div class="elan-date">
+                                    <b>May</b>
+                                    <p>10</p>
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                <div class="news-title">Beynəlxalq Konfrans: Soyuq müharibədən sonrakı dövrdə sosial, iqtisadi və siyasi inkişaf kontekstində Cənubi Qafqaz</div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="elan mt-4">
+                        <div class="news-header">
+                            <span>Əməkdaşlıq</span>
+                        </div>   
+                        <div class="partners-wrapper p-4 d-flex align-items-center justify-content-between">
+                            <a href="https://www.mruni.eu/en/"><img src="/images/mykolas.png" alt=""></a>
+                            <a href="http://rta.customs.ru/nrta/index.php"><img src="/images/rus.png" alt=""></a>
+                            <a href="https://incu.org/"><img src="/images/incu.jpg" alt=""></a>
+                            <a href="https://www.rtu.lv/en"><img src="/images/riga.jpg" alt=""></a>
+                            <a href="http://umsf.dp.ua/"><img src="/images/finance.jpg" alt=""></a>
+                            <a href="http://www.ukim.edu.mk/en_index.php"><img src="/images/ukim.jpg" alt=""></a>
+                            <a href="http://www.wcoomd.org/en/"><img src="/images/picard.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-right col-lg-4 col-12">
+                    <div class="ibn-sina">
+                        <p>Elm öyrənmək heç vaxt gec deyil.</p>
+                        <b>Ibn Sina</b>
+                    </div>
+                    <div class="tedbirler">
+                        <div class="tedbir-header">
+                            <img src="/images/calendar.svg" alt="">
+                            <b>Növbəti tədbirlər</b>
+                        </div>
+                        <div class="calendar">
+                            <a class="calendar-tab-prev" href="#"><i class="fa fa-angle-left"></i></a>
+                            <a href="#">May, 2022</a>
+                            <a class="calendar-tab-next" href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="/script.js"></script>
 </html>

@@ -341,6 +341,7 @@ body a{
 }
 .ibn-sina p{
     color: #666;
+    font-weight: 600;
 }
 .ibn-sina b{
     display: flex;

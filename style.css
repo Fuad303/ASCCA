@@ -561,7 +561,7 @@ footer ul li{
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 40px;
+    padding-bottom: 60px;
 }
 .bottom-wrapper i{
     margin-right: 5px;
@@ -571,4 +571,11 @@ footer ul li{
 }
 .bottom-item span{
     color: #ffeb9c;
+}
+.footer-social{
+    float: right;
+}
+.footer-social a{
+    background-color: #21a6df;
+    padding: 17px 18px;
 }
